@@ -1,9 +1,5 @@
 <?php
-    include "framework/database/connect-cloud.php";
     include "framework/database/connect.php";
-    include "framework/security/default.php";	
-    include "framework/functions/default.php";
-    include "framework/functions/print-digital.php";
 
     $Security = getSecurity($_SESSION['userID'],"AddressBook");
     $upperSecurity = getSecurity($_SESSION['userID'],"Executive");
